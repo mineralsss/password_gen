@@ -1,5 +1,6 @@
 import random
 import string
+import time
 
 character= list(string.ascii_letters+ string.digits + "~!@#$%^&*()_+-=[]{}|\:;'<>?,./")
 def Create_Password():
@@ -10,6 +11,7 @@ def Create_Password():
         password.append(random.choice(character))
     print("".join(password))
 Create_Password()
+time.sleep(5)
 
         
 
